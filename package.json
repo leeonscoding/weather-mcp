@@ -1,0 +1,25 @@
+{
+  "name": "weather-mcp-server",
+  "version": "1.0.0",
+  "description": "A minimal MCP server that reports the weather",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/index.js",
+    "inspect": "npx @modelcontextprotocol/inspector node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "^2.3.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
